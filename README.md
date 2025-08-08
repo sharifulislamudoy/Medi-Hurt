@@ -19,13 +19,13 @@ Medi-Hurt is designed to support multiple vendors (sellers) to list medicines an
 
 ## Admin Credentials
 
-- **Email:** admin@medi-hurt.com  
-- **Password:** Admin1234  
+- **Email:** medi-hurt@admin.com  
+- **Password:** Medi-hurt-admin1@  
 
 ## Seller Credentials
 
-- **Email:** seller@medi-hurt.com  
-- **Password:** Seller1234  
+- **Email:** sharifulislamudoy123@gmail.com 
+- **Password:** Medi-hurt-seller1@  
 
 ---
 
