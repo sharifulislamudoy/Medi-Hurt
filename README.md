@@ -79,3 +79,9 @@ Medi-Hurt is designed to support multiple vendors (sellers) to list medicines an
 cd Medi-Hurt-Client
 npm install
 
+- For Servers:
+
+```bash
+cd Medi-Hurt-Server
+npm install
+
