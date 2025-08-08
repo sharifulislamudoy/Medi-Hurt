@@ -1,69 +1,86 @@
-# Medi-Hurt
+<h1 align="center">
+  💊 Medi-Hurt
+</h1>
 
-**Medi-Hurt** is a multi-vendor e-commerce platform specializing in the sale of medicines and healthcare products. Built with the MERN stack (MongoDB, Express.js, React.js, Node.js), it offers users a seamless and secure experience for browsing, purchasing, and managing medicines with features tailored for admins, sellers, and users.
+<p align="center">
+  <b>A Multi-Vendor Medicine Selling E-commerce Platform</b><br />
+  Built with ❤️ using <code>React.js</code>, <code>Node.js</code>, <code>Express.js</code>, <code>MongoDB</code>, and <code>Firebase</code>
+</p>
 
----
-
-## Live Site
-🌐 [https://medi-hurt.web.app/](https://medi-hurt.web.app/)
-
----
-
-## Project Overview
-
-Medi-Hurt is designed to support multiple vendors (sellers) to list medicines and healthcare products while allowing users to easily browse, select, and purchase medicines online. The platform incorporates user authentication, role-based dashboards, real-time updates, responsive design, and secure payment via Stripe.
-
----
-
-## Admin Credentials
-
-- **Email:** medi-hurt@admin.com  
-- **Password:** Medi-hurt-admin1@  
-
-## Seller Credentials
-
-- **Email:** sharifulislamudoy123@gmail.com 
-- **Password:** Medi-hurt-seller1@  
+<p align="center">
+  🔗 <a href="https://medi-hurt.web.app/" target="_blank"><b>Live Site</b></a> &nbsp; • &nbsp;
+  🧑‍💻 <a href="#features"><b>Features</b></a> &nbsp; • &nbsp;
+  🛠️ <a href="#tech-stack"><b>Tech Stack</b></a> &nbsp; • &nbsp;
+  ⚙️ <a href="#running-locally"><b>Run Locally</b></a> &nbsp; • &nbsp;
+  📂 <a href="#repositories"><b>Repositories</b></a> &nbsp; • &nbsp;
+  📞 <a href="#contact"><b>Contact</b></a>
+</p>
 
 ---
 
-## Features
+## 📂 Repositories
 
-- **User Roles:** Supports Admin, Seller, and User roles with dedicated dashboards.
-- **Multi-Vendor System:** Sellers can manage their medicines and advertisement requests.
-- **Medicine Categories:** Categorized medicines with detailed listings and filters.
-- **Responsive Design:** Fully responsive for mobile, tablet, and desktop devices.
-- **Authentication:** Email-password login and social login with Google and GitHub.
-- **Private Routes:** Persistent authentication with access tokens stored securely.
-- **Product Management:** Admin and Sellers can add, update, and delete medicines and categories.
-- **Advertisement Slider:** Admin controls featured medicines displayed in homepage slider.
-- **Shopping Cart & Checkout:** Users can add medicines to cart, adjust quantities, and pay securely via Stripe.
-- **Order Invoice:** Automatically generated, printable PDF invoice after checkout.
-- **Sales Reporting:** Admin can generate detailed sales reports with filtering and export options (PDF, Excel, CSV).
-- **Payment Management:** Track pending and completed payments, approve payments from the admin dashboard.
-- **Pagination, Sorting, and Search:** All medicine listings support pagination, sorting by price, and search by multiple fields.
-- **Notifications:** Sweet alert/toast notifications for CRUD operations and authentication events.
-- **Secure Environment Variables:** Firebase config and MongoDB credentials hidden in environment variables.
-- **Internationalization (Optional):** Supports multiple languages.
-- **Additional Utilities:** Dynamic page titles using react-helmet and a digital clock in the navbar.
+- **Client Side:** [Medi-Hurt-Client](https://github.com/sharifulislamudoy/Medi-Hurt-Client)  
+- **Server Side:** [Medi-Hurt-Server](https://github.com/sharifulislamudoy/Medi-Hurt-Server)
 
 ---
 
-## Tech Stack
+## ✨ Features
 
-- **Frontend:** React.js, React Router, Tailwind CSS, DaisyUI, TanStack Query, React Hook Form, React Helmet, SweetAlert2, Swiper.js  
-- **Backend:** Node.js, Express.js, MongoDB, Mongoose, JWT Authentication  
-- **Authentication:** Firebase Authentication (email/password, Google, GitHub)  
-- **Payments:** Stripe API for secure payments  
-- **Deployment:** Firebase Hosting (Frontend), Vercel (Backend)  
-- **Other:** PDF generation, Excel/CSV export, Pagination, Sorting, Search  
-
----
-
-## Repositories
-
-- **Client (Frontend):** [https://github.com/sharifulislamudoy/Medi-Hurt-Client](https://github.com/sharifulislamudoy/Medi-Hurt-Client)  
-- **Server (Backend):** [https://github.com/sharifulislamudoy/Medi-Hurt-Server](https://github.com/sharifulislamudoy/Medi-Hurt-Server)  
+✅ Multi-Vendor Role-Based Dashboards (Admin, Seller, User)  
+✅ User Authentication with Email/Password & Social Logins (Google, GitHub) via Firebase  
+✅ Medicine Catalog with Search, Filters & Sorting  
+✅ Product Management for Sellers & Admins  
+✅ Secure JWT-Based Private Routes  
+✅ Stripe Payment Integration with Cart & Checkout  
+✅ Advertisement Slider Controlled by Admin  
+✅ Sales Reporting & Export (PDF, Excel, CSV)  
+✅ Auto-Generated Order Invoices (Printable PDF)  
+✅ Responsive UI built with Tailwind CSS & DaisyUI  
+✅ Real-Time Notifications and User-Friendly Alerts  
 
 ---
 
+## 🌐 Live Preview
+
+🔗 **Live Site:** [https://medi-hurt.web.app/](https://medi-hurt.web.app/)
+
+Try browsing products, registering, logging in with demo users, and exploring the role-based dashboards.
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology           | Purpose                           |
+|----------------------|---------------------------------|
+| ⚛️ React.js          | Frontend UI                     |
+| 🧭 React Router       | Routing & Navigation             |
+| 🎨 Tailwind CSS       | Styling & Responsive Design      |
+| 🌈 DaisyUI            | Tailwind CSS Component Library   |
+| 🔐 Firebase Auth      | Authentication (Email & Social) |
+| 🚀 Node.js & Express  | Backend API                     |
+| 🍃 MongoDB & Mongoose | Database & ODM                   |
+| 🔑 JWT                | Secure Token Authentication     |
+| 💳 Stripe API         | Payment Processing              |
+| 📄 PDF/Excel Export   | Sales Reports & Invoice Generation |
+
+---
+
+## ⚙️ Running Locally
+
+### 🔧 Prerequisites
+
+- Node.js (v16 or higher)  
+- npm or yarn  
+- MongoDB (Local installation or MongoDB Atlas)  
+- Firebase Project with Authentication enabled  
+
+---
+
+### 🧭 Step-by-Step Setup
+
+#### 1️⃣ Clone the repositories
+
+```bash
+git clone https://github.com/sharifulislamudoy/Medi-Hurt-Client.git
+git clone https://github.com/sharifulislamudoy/Medi-Hurt-Server.git
