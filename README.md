@@ -1,7 +1,5 @@
 # Medi-Hurt
 
-![Medi-Hurt Logo](https://medi-hurt.web.app/favicon.ico)
-
 **Medi-Hurt** is a multi-vendor e-commerce platform specializing in the sale of medicines and healthcare products. Built with the MERN stack (MongoDB, Express.js, React.js, Node.js), it offers users a seamless and secure experience for browsing, purchasing, and managing medicines with features tailored for admins, sellers, and users.
 
 ---
